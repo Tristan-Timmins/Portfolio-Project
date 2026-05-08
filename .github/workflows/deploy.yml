@@ -39,7 +39,7 @@ jobs:
       - name: Upload build artefacts
         uses: actions/upload-pages-artifact@v4
         with:
-          path: 'build/'        # directory containing the generated site
+          path: 'dist/'        # directory containing the generated site
 
   # Second job deploys the previously built site to GitHub Pages
   deploy:
