@@ -5,7 +5,9 @@ name: Deploy to GitHub Pages
 # Trigger the workflow on pushes to the main branch
 on:
   push:
-    branches: 'master'
+    branches: 
+     - 'main'
+     - 'master'
 
 # Grant minimal permissions needed by the workflow
 permissions:
@@ -39,7 +41,7 @@ jobs:
       - name: Upload build artefacts
         uses: actions/upload-pages-artifact@v4
         with:
-          path: 'dist/'        # directory containing the generated site
+          path: 'build/'        # directory containing the generated site
 
   # Second job deploys the previously built site to GitHub Pages
   deploy:
