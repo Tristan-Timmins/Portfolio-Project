@@ -1,59 +1,33 @@
 <footer class="footer">
-    <div class="footer-links">
-        <a href="/">✦ Home ✦</a> |
-        <a href="/aboutus/">✦ About ✦</a> |
-        <a href="/trending/">✦ Trending ✦</a> |
-        <a href="/signup/">✦ SignUp ✦</a>
-    </div>
-    <div class="copyright">
-        © 2003-2004 Blog N' Log Team | Last Updated: May 20, 2003
-    </div>
-    <div class="browser-logos">
-    </div>
+    <p>&copy; 2025 Starter Kit. Inspired by mindful design and resilient development.</p>
 </footer>
 
 
-
 <style>
-    /*NOT MY CODE//NEED FOOTER ON EVERY PAGE**/
     .footer {
-        grid-column: 1 / span 1;
-        grid-row: 6;
-        background: linear-gradient(180deg, #e8e8e8 0%, #c0c0c0 100%);
-        border-top: 2px groove #808080;
-        padding: 15px;
+        width: 100%;
+        padding: var(--space-md);
         text-align: center;
-        margin-top: 20px;
+        font-family: var(--font-body);
+        font-size: var(--font-sm);
+        color: var(--text-tertiary);
+        background-color: var(--color-surface);
+        border-top: var(--border-default);
+        box-shadow: var(--shadow-sm);
+        position: relative;
+        z-index: 10;
+        animation: fadeInFooter var(--transition-slow) ease-in-out;
     }
-    
-    .footer-links {
-        margin-bottom: 10px;
-        font-size: 12px;
-    }
-    
-    .footer-links a {
-        color: #663399;
-        text-decoration: none;
-        margin: 0 5px;
-        transition: all 0.1s ease;
-    }
-    
-    .footer-links a:hover {
-        text-decoration: underline;
-        text-shadow: 1px 1px 0px #ffcc00;
-    }
-    
-    .copyright {
-        font-size: 10px;
-        color: #666666;
-        margin-bottom: 10px;
-    }
-    
-    .browser-logos {
-        display: flex;
-        justify-content: center;
-        gap: 5px;
-        flex-wrap: wrap;
+
+    .footer::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 3px;
+        width: 100%;
+        background: var(--gradient-brand);
+        animation: gradientScroll 6s linear infinite;
     }
 
     @keyframes fadeInFooter {

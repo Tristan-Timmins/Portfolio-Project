@@ -25,6 +25,9 @@
         display: flex;
         flex-direction: column;
         min-height: 100vh;
+        background-color: var(--color-background);
+        color: var(--text-primary);
+        font-family: var(--font-body);
     }
 
     main {
@@ -33,7 +36,24 @@
         display: flex;
         flex-direction: column;
         position: relative;
-        background-color: rgb(75, 153, 255);
+        isolation: isolate;
+    }
+
+    main::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        min-height: 100%;
+        width: 100%;
+        background-image: url("/images/backgrounds/zen-enso-bg.png");
+        background-repeat: repeat-y; /* or 'no-repeat' for full image */
+        background-size: cover;      /* or 'contain' if you want it less aggressive */
+        background-position: center top;
+        opacity: 0.66;
+        z-index: -1;
     }
 
     @media (max-width: 768px) {

@@ -12,23 +12,23 @@
 
     {#if status === 404 || (!status && error == null)}
         <p class="message">
-            Sorry loser! <code>{page.url.pathname}</code> could not be found.
+            The path <code>{page.url.pathname}</code> could not be found.
         </p>
         <p class="quote">
-            “Wow, that sucks. No page for you.”<br />
-            <span>– Inspired by Birmingham (誠 – Sincerity)</span>
+            “Even in failure, there is clarity.”<br />
+            <span>– Inspired by *bushidō* (誠 – Sincerity)</span>
         </p>
     {:else if error}
         <p class="message">{error.message}</p>
         <p class="quote">
-            “Some say you were meant to fail.”<br />
-            <span>– Inspired by *The Footie* (忍識 – Awareness)</span>
+            “When the unexpected arises, meet it with calm.”<br />
+            <span>– Inspired by *ninshiki* (忍識 – Awareness)</span>
         </p>
     {:else}
-        <p class="message">An unknown error occurred. Try again! Have you tried again? Do it now!!</p>  
+        <p class="message">An unknown error occurred. Please try again.</p>
         <p class="quote">
-            “Uh oh spaghettios!! Looks like you caused a big whoopsie!.”<br />
-            <span>– Jimmy Jackson</span>
+            “The obstacle is the path.”<br />
+            <span>– Zen proverb</span>
         </p>
     {/if}
 
