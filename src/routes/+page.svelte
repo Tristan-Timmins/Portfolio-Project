@@ -4,9 +4,9 @@
   let projects = [
     {
       id: 'strategy',
-      title: 'Diplomatic',
+      title: 'DIPLOMATIC',
       color: '#e74c3c',
-      year: '2023',
+      year: '2026',
       description: 'Spend Gold, Build Armies, Conquer Nations!',
       fullDescription: 'A real time strategy game where you conquer nations. Choose a side, Economic or Wartime.',
       tech: ['HTML', 'CSS', 'JS', 'Firebase'],
@@ -16,25 +16,24 @@
         'https://placehold.co/600x400/c0392b/white?text=Checkout',
         'https://placehold.co/600x400/e67e22/white?text=Admin+Panel'
       ],
-      liveUrl: '#',
-      githubUrl: '#'
+      liveUrl: 'https://apple9511.github.io/Diplomatic/',
+      githubUrl: 'https://github.com/Apple9511/Diplomatic'
     },
     {
-      id: 'blog',
-      title: 'NEO NOIR BLOG',
+      id: 'games',
+      title: 'APPLE_THE_CODE',
       color: '#3498db',
-      year: '2024',
-      description: 'Personal blog platform with markdown support and dark mode.',
-      fullDescription: 'A minimalist blogging platform inspired by film noir aesthetics. Features include markdown-to-HTML conversion, syntax highlighting for code blocks, tag-based filtering, comment system with moderation, and responsive dark/light mode.',
-      tech: ['Astro', 'Tailwind', 'MDX', 'Prisma'],
-      image: 'https://placehold.co/600x400/3498db/white?text=Neo+Noir+Blog',
+      year: '2026',
+      description: 'My Account on Itch.io, where I upload all of my game projects.',
+      fullDescription: 'This is where I post all of the games that I make. I also 3D model low-poly assets for horror games.',
+      tech: ['Unity', 'C#', 'Blender'],
+      image: 'https://placehold.co/600x400/3498db/white?text=APPLE_THE_CODE',
       images: [
         'https://placehold.co/600x400/2980b9/white?text=Blog+Home',
         'https://placehold.co/600x400/3498db/white?text=Post+View',
         'https://placehold.co/600x400/1abc9c/white?text=Dark+Mode'
       ],
       liveUrl: '#',
-      githubUrl: '#'
     },
     {
       id: 'game',
@@ -455,7 +454,7 @@
   {/if}
   
   <!-- decorations -->
-  <div class="poster" role="presentation">RETRO<br>WEB<br>🍕</div>
+  <div class="poster" role="presentation">APPLES<br>ROOM<br>🍎</div>
   <div class="cassette-tape" role="presentation"></div>
 </div>
 
@@ -619,7 +618,7 @@
     position: relative;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, #ff6b6b, #ffd93d);
+    background: linear-gradient(45deg, #3429FF, #64EDFF);
     font-family: 'Press Start 2P', monospace;
     overflow: hidden;
   }
@@ -664,6 +663,8 @@
     font-size: 16px;
     margin: 10px 0;
     letter-spacing: 2px;
+    background: #3429FF;
+    color: white;
   }
   
   .product-year {
