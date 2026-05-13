@@ -10,11 +10,11 @@
       description: 'Spend Gold, Build Armies, Conquer Nations!',
       fullDescription: 'A real time strategy game where you conquer nations. Choose a side, Economic or Wartime.',
       tech: ['HTML', 'CSS', 'JS', 'Firebase'],
-      image: 'https://placehold.co/600x400/e74c3c/white?text=Diplomatic',
+      image: 'images/DIPLOMATIC Thumbnail.png',
       images: [
-        'https://placehold.co/600x400/e74c3c/white?text=Home+Page',
-        'https://placehold.co/600x400/c0392b/white?text=Checkout',
-        'https://placehold.co/600x400/e67e22/white?text=Admin+Panel'
+        'images/DIPLOMATIC 1.png',
+        'images/DIPLOMATIC 2.png',
+        'images/DIPLOMATIC 3.png'
       ],
       liveUrl: 'https://apple9511.github.io/Diplomatic/',
       githubUrl: 'https://github.com/Apple9511/Diplomatic'
@@ -27,47 +27,48 @@
       description: 'My Account on Itch.io, where I upload all of my game projects.',
       fullDescription: 'This is where I post all of the games that I make. I also 3D model low-poly assets for horror games.',
       tech: ['Unity', 'C#', 'Blender'],
-      image: 'https://placehold.co/600x400/3498db/white?text=APPLE_THE_CODE',
+      image: 'images/ATC Thumbnail.png',
       images: [
-        'https://placehold.co/600x400/2980b9/white?text=Blog+Home',
-        'https://placehold.co/600x400/3498db/white?text=Post+View',
-        'https://placehold.co/600x400/1abc9c/white?text=Dark+Mode'
+        'images/ATC 1.png',
+        'images/ATC 2.png',
+        'images/ATC 3.png'
       ],
-      liveUrl: '#',
+      liveUrl: 'https://applethecode.itch.io/',
+      githubUrl: 'https://github.com/Apple9511/'
     },
     {
-      id: 'game',
-      title: 'SPACE INVADERS DX',
+      id: 'product',
+      title: '3D ASSET PACKS',
       color: '#2ecc71',
-      year: '2023',
-      description: 'Arcade-style space shooter game with high scores.',
-      fullDescription: 'A faithful recreation of the classic arcade game with modern enhancements. Includes particle effects, power-ups, local high score leaderboard, increasing difficulty levels, and retro sound effects generated with Web Audio API.',
-      tech: ['Canvas API', 'JavaScript', 'Web Audio', 'LocalStorage'],
-      image: 'https://placehold.co/600x400/2ecc71/white?text=Space+Invaders+DX',
+      year: '2026',
+      description: 'Low-Poly Asset Packs Made in Blender',
+      fullDescription: 'These are collections of Low-Poly 3D objects that I modelled in blender and textured in Unity. These packs are perfect for PSX style horror games.',
+      tech: ['Blender', 'Unity'],
+      image: 'images/3D Assets Thumbnail.png',
       images: [
-        'https://placehold.co/600x400/27ae60/white?text=Gameplay',
-        'https://placehold.co/600x400/2ecc71/white?text=High+Scores',
-        'https://placehold.co/600x400/1abc9c/white?text=Boss+Battle'
+        'images/3D Assets 1.png',
+        'images/3D Assets 2.png',
+        'images/3D Assets 3.png'
       ],
-      liveUrl: '#',
-      githubUrl: '#'
+      liveUrl: 'https://applethecode.itch.io/psx-style-the-silent-shelter-low-poly-asset-pack',
+      githubUrl: 'https://github.com/Apple9511/'
     },
     {
-      id: 'dashboard',
-      title: 'ANALYTICS HUB',
+      id: 'LinkedIn',
+      title: 'LINKEDIN',
       color: '#f39c12',
-      year: '2024',
-      description: 'Real-time analytics dashboard with data visualization.',
-      fullDescription: 'Enterprise-grade analytics dashboard for tracking business metrics. Features include real-time WebSocket updates, interactive charts with D3.js, customizable widget layout, PDF report generation, and user role-based access control.',
-      tech: ['React', 'D3.js', 'Firebase', 'Chart.js'],
-      image: 'https://placehold.co/600x400/f39c12/white?text=Analytics+Hub',
+      year: '2026',
+      description: 'This is my LinkedIn profile.',
+      fullDescription: 'This is where you can contact me for job opportunities.',
+      tech: ['None'],
+      image: 'images/LINKED IN PFP.jpg',
       images: [
-        'https://placehold.co/600x400/e67e22/white?text=Dashboard',
-        'https://placehold.co/600x400/f1c40f/white?text=Charts',
-        'https://placehold.co/600x400/f39c12/white?text=Reports'
+        'images/LINKED IN 1.png',
+        'images/LINKED IN 2.png',
+        'images/LINKED IN 3.png'
       ],
-      liveUrl: '#',
-      githubUrl: '#'
+      liveUrl: 'https://www.linkedin.com/in/tristan-timmins-7002a12b5/',
+      githubUrl: 'https://github.com/Apple9511/'
     }
   ];
 
